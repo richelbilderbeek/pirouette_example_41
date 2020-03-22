@@ -12,11 +12,11 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --ntasks=1
 #SBATCH --mem=10G
-#SBATCH --job-name=pirex32
-#SBATCH --output=example_32.log
+#SBATCH --job-name=pirex41
+#SBATCH --output=example_41.log
 #
-rm -rf example_32
+rm -rf example_41
 rm *.png
-time Rscript example_32.R
-zip -r pirouette_example_32.zip example_32 example_32.R scripts *.png
+time Rscript example_41.R
+zip -r pirouette_example_41.zip example_41 example_41.R scripts *.png
 
