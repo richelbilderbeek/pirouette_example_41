@@ -1,4 +1,4 @@
-# pirouette example 32:
+# pirouette example 41:
 # 
 # * 32 taxa, instead of 6
 #
@@ -9,7 +9,7 @@ library(testthat)
 library(ggplot2)
 
 # Constants
-example_no <- 32
+example_no <- 41
 rng_seed <- 314
 crown_age <- 10
 n_taxa <- 32
