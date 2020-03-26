@@ -1,4 +1,3 @@
-rm: cannot remove ‘*.png’: No such file or directory
 Loading required package: beautier
 Loading required package: babette
 Loading required package: beastier
@@ -9,10 +8,13 @@ Registered S3 method overwritten by 'pryr':
   print.bytes Rcpp
 Saving 7 x 7 in image
 Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
 
-real	411m40.521s
-user	382m50.494s
-sys	5m13.500s
+real	1005m56.880s
+user	946m10.681s
+sys	7m23.009s
   adding: example_41/ (stored 0%)
   adding: example_41/315/ (stored 0%)
   adding: example_41/315/best_evidence.trees (deflated 65%)
@@ -73,6 +75,65 @@ sys	5m13.500s
   adding: example_41/315/true_posterior_gen.png (deflated 1%)
   adding: example_41/315/twin_error_histogram_gen.png (deflated 72%)
   adding: example_41/315/twin_posterior_gen.png (deflated 1%)
+  adding: example_41/318/ (stored 0%)
+  adding: example_41/318/best_evidence.trees (deflated 63%)
+  adding: example_41/318/twin_alignment.png (deflated 2%)
+  adding: example_41/318/best_evidence.log (deflated 65%)
+  adding: example_41/318/evidence.csv (deflated 56%)
+  adding: example_41/318/true_tree.png (deflated 23%)
+  adding: example_41/318/evidence_true.latex (deflated 58%)
+  adding: example_41/318/gen_twin.log (deflated 63%)
+  adding: example_41/318/gen_twin.xml.state (deflated 59%)
+  adding: example_41/318/best_evidence.xml (deflated 73%)
+  adding: example_41/318/best.trees (deflated 61%)
+  adding: example_41/318/best.xml (deflated 71%)
+  adding: example_41/318/gen.xml.state (deflated 58%)
+  adding: example_41/318/twin_tree.png (deflated 24%)
+  adding: example_41/318/gen_errors.csv (deflated 59%)
+  adding: example_41/318/errors.csv (deflated 61%)
+  adding: example_41/318/twin_posterior_best.png (deflated 1%)
+  adding: example_41/318/gen_errors_twin.csv (deflated 58%)
+  adding: example_41/318/evidence_twin.latex (deflated 59%)
+  adding: example_41/318/errors.png (deflated 16%)
+  adding: example_41/318/best_twin.log (deflated 57%)
+  adding: example_41/318/best_evidence.csv (deflated 61%)
+  adding: example_41/318/esses_gen.latex (deflated 40%)
+  adding: example_41/318/twin_error_violin_gen.png (deflated 13%)
+  adding: example_41/318/best_errors_twin.csv (deflated 58%)
+  adding: example_41/318/gen.xml (deflated 71%)
+  adding: example_41/318/best.csv (deflated 58%)
+  adding: example_41/318/best.xml.state (deflated 59%)
+  adding: example_41/318/true_alignment.png (deflated 2%)
+  adding: example_41/318/best_twin.xml (deflated 73%)
+  adding: example_41/318/best_errors.csv (deflated 59%)
+  adding: example_41/318/evidence_twin.csv (deflated 55%)
+  adding: example_41/318/true_error_histogram_gen.png (deflated 71%)
+  adding: example_41/318/twin.newick (deflated 55%)
+  adding: example_41/318/gen_twin.xml (deflated 72%)
+  adding: example_41/318/twin_error_histogram_best.png (deflated 76%)
+  adding: example_41/318/best_twin.trees (deflated 67%)
+  adding: example_41/318/true_error_histogram_best.png (deflated 74%)
+  adding: example_41/318/twin_error_violin_best.png (deflated 14%)
+  adding: example_41/318/alignment.fas (deflated 71%)
+  adding: example_41/318/gen.csv (deflated 58%)
+  adding: example_41/318/alignment_twin.fas (deflated 72%)
+  adding: example_41/318/best_twin.xml.state (deflated 61%)
+  adding: example_41/318/gen.log (deflated 64%)
+  adding: example_41/318/true_posterior_best.png (deflated 1%)
+  adding: example_41/318/true_error_violin_best.png (deflated 21%)
+  adding: example_41/318/best.log (deflated 62%)
+  adding: example_41/318/gen_twin.trees (deflated 61%)
+  adding: example_41/318/esses_twin_best.latex (deflated 42%)
+  adding: example_41/318/true_error_violin_gen.png (deflated 14%)
+  adding: example_41/318/phylogeny.newick (deflated 54%)
+  adding: example_41/318/gen.trees (deflated 61%)
+  adding: example_41/318/best_evidence.posterior.trees (deflated 71%)
+  adding: example_41/318/esses_best.latex (deflated 41%)
+  adding: example_41/318/esses_twin_gen.latex (deflated 40%)
+  adding: example_41/318/best_evidence.posterior.csv (deflated 76%)
+  adding: example_41/318/true_posterior_gen.png (deflated 1%)
+  adding: example_41/318/twin_error_histogram_gen.png (deflated 78%)
+  adding: example_41/318/twin_posterior_gen.png (deflated 1%)
   adding: example_41/314/ (stored 0%)
   adding: example_41/314/best_evidence.trees (deflated 64%)
   adding: example_41/314/twin_alignment.png (deflated 3%)
@@ -127,21 +188,139 @@ sys	5m13.500s
   adding: example_41/314/gen.trees (deflated 61%)
   adding: example_41/314/best_evidence.posterior.trees (deflated 74%)
   adding: example_41/314/esses_best.latex (deflated 44%)
-  adding: example_41/314/esses_twin_gen.latex (deflated 40%)
+  adding: example_41/314/esses_twin_gen.latex (deflated 41%)
   adding: example_41/314/best_evidence.posterior.csv (deflated 67%)
   adding: example_41/314/true_posterior_gen.png (deflated 1%)
   adding: example_41/314/twin_error_histogram_gen.png (deflated 76%)
   adding: example_41/314/twin_posterior_gen.png (deflated 1%)
+  adding: example_41/316/ (stored 0%)
+  adding: example_41/316/best_evidence.trees (deflated 64%)
+  adding: example_41/316/twin_alignment.png (deflated 2%)
+  adding: example_41/316/best_evidence.log (deflated 66%)
+  adding: example_41/316/evidence.csv (deflated 55%)
+  adding: example_41/316/true_tree.png (deflated 19%)
+  adding: example_41/316/evidence_true.latex (deflated 58%)
+  adding: example_41/316/gen_twin.log (deflated 63%)
+  adding: example_41/316/gen_twin.xml.state (deflated 57%)
+  adding: example_41/316/best_evidence.xml (deflated 73%)
+  adding: example_41/316/best.trees (deflated 67%)
+  adding: example_41/316/best.xml (deflated 72%)
+  adding: example_41/316/gen.xml.state (deflated 57%)
+  adding: example_41/316/twin_tree.png (deflated 23%)
+  adding: example_41/316/gen_errors.csv (deflated 59%)
+  adding: example_41/316/errors.csv (deflated 61%)
+  adding: example_41/316/twin_posterior_best.png (deflated 1%)
+  adding: example_41/316/gen_errors_twin.csv (deflated 59%)
+  adding: example_41/316/evidence_twin.latex (deflated 59%)
+  adding: example_41/316/errors.png (deflated 15%)
+  adding: example_41/316/best_twin.log (deflated 62%)
+  adding: example_41/316/best_evidence.csv (deflated 61%)
+  adding: example_41/316/esses_gen.latex (deflated 40%)
+  adding: example_41/316/twin_error_violin_gen.png (deflated 17%)
+  adding: example_41/316/best_errors_twin.csv (deflated 59%)
+  adding: example_41/316/gen.xml (deflated 71%)
+  adding: example_41/316/best.csv (deflated 58%)
+  adding: example_41/316/best.xml.state (deflated 62%)
+  adding: example_41/316/true_alignment.png (deflated 2%)
+  adding: example_41/316/best_twin.xml (deflated 72%)
+  adding: example_41/316/best_errors.csv (deflated 59%)
+  adding: example_41/316/evidence_twin.csv (deflated 55%)
+  adding: example_41/316/true_error_histogram_gen.png (deflated 74%)
+  adding: example_41/316/twin.newick (deflated 54%)
+  adding: example_41/316/gen_twin.xml (deflated 72%)
+  adding: example_41/316/twin_error_histogram_best.png (deflated 69%)
+  adding: example_41/316/best_twin.trees (deflated 60%)
+  adding: example_41/316/true_error_histogram_best.png (deflated 74%)
+  adding: example_41/316/twin_error_violin_best.png (deflated 15%)
+  adding: example_41/316/alignment.fas (deflated 71%)
+  adding: example_41/316/gen.csv (deflated 58%)
+  adding: example_41/316/alignment_twin.fas (deflated 72%)
+  adding: example_41/316/best_twin.xml.state (deflated 59%)
+  adding: example_41/316/gen.log (deflated 64%)
+  adding: example_41/316/true_posterior_best.png (deflated 1%)
+  adding: example_41/316/true_error_violin_best.png (deflated 27%)
+  adding: example_41/316/best.log (deflated 66%)
+  adding: example_41/316/gen_twin.trees (deflated 60%)
+  adding: example_41/316/esses_twin_best.latex (deflated 40%)
+  adding: example_41/316/true_error_violin_gen.png (deflated 15%)
+  adding: example_41/316/phylogeny.newick (deflated 53%)
+  adding: example_41/316/gen.trees (deflated 60%)
+  adding: example_41/316/best_evidence.posterior.trees (deflated 74%)
+  adding: example_41/316/esses_best.latex (deflated 49%)
+  adding: example_41/316/esses_twin_gen.latex (deflated 40%)
+  adding: example_41/316/best_evidence.posterior.csv (deflated 65%)
+  adding: example_41/316/true_posterior_gen.png (deflated 1%)
+  adding: example_41/316/twin_error_histogram_gen.png (deflated 71%)
+  adding: example_41/316/twin_posterior_gen.png (deflated 1%)
+  adding: example_41/317/ (stored 0%)
+  adding: example_41/317/best_evidence.trees (deflated 64%)
+  adding: example_41/317/twin_alignment.png (deflated 2%)
+  adding: example_41/317/best_evidence.log (deflated 65%)
+  adding: example_41/317/evidence.csv (deflated 55%)
+  adding: example_41/317/true_tree.png (deflated 25%)
+  adding: example_41/317/evidence_true.latex (deflated 58%)
+  adding: example_41/317/gen_twin.log (deflated 64%)
+  adding: example_41/317/gen_twin.xml.state (deflated 59%)
+  adding: example_41/317/best_evidence.xml (deflated 73%)
+  adding: example_41/317/best.trees (deflated 61%)
+  adding: example_41/317/best.xml (deflated 72%)
+  adding: example_41/317/gen.xml.state (deflated 58%)
+  adding: example_41/317/twin_tree.png (deflated 25%)
+  adding: example_41/317/gen_errors.csv (deflated 59%)
+  adding: example_41/317/errors.csv (deflated 61%)
+  adding: example_41/317/twin_posterior_best.png (deflated 1%)
+  adding: example_41/317/gen_errors_twin.csv (deflated 59%)
+  adding: example_41/317/evidence_twin.latex (deflated 59%)
+  adding: example_41/317/errors.png (deflated 15%)
+  adding: example_41/317/best_twin.log (deflated 67%)
+  adding: example_41/317/best_evidence.csv (deflated 61%)
+  adding: example_41/317/esses_gen.latex (deflated 40%)
+  adding: example_41/317/twin_error_violin_gen.png (deflated 16%)
+  adding: example_41/317/best_errors_twin.csv (deflated 59%)
+  adding: example_41/317/gen.xml (deflated 70%)
+  adding: example_41/317/best.csv (deflated 58%)
+  adding: example_41/317/best.xml.state (deflated 65%)
+  adding: example_41/317/true_alignment.png (deflated 2%)
+  adding: example_41/317/best_twin.xml (deflated 73%)
+  adding: example_41/317/best_errors.csv (deflated 59%)
+  adding: example_41/317/evidence_twin.csv (deflated 55%)
+  adding: example_41/317/true_error_histogram_gen.png (deflated 78%)
+  adding: example_41/317/twin.newick (deflated 54%)
+  adding: example_41/317/gen_twin.xml (deflated 72%)
+  adding: example_41/317/twin_error_histogram_best.png (deflated 76%)
+  adding: example_41/317/best_twin.trees (deflated 68%)
+  adding: example_41/317/true_error_histogram_best.png (deflated 78%)
+  adding: example_41/317/twin_error_violin_best.png (deflated 19%)
+  adding: example_41/317/alignment.fas (deflated 71%)
+  adding: example_41/317/gen.csv (deflated 58%)
+  adding: example_41/317/alignment_twin.fas (deflated 71%)
+  adding: example_41/317/best_twin.xml.state (deflated 63%)
+  adding: example_41/317/gen.log (deflated 64%)
+  adding: example_41/317/true_posterior_best.png (deflated 1%)
+  adding: example_41/317/true_error_violin_best.png (deflated 19%)
+  adding: example_41/317/best.log (deflated 73%)
+  adding: example_41/317/gen_twin.trees (deflated 61%)
+  adding: example_41/317/esses_twin_best.latex (deflated 47%)
+  adding: example_41/317/true_error_violin_gen.png (deflated 21%)
+  adding: example_41/317/phylogeny.newick (deflated 53%)
+  adding: example_41/317/gen.trees (deflated 61%)
+  adding: example_41/317/best_evidence.posterior.trees (deflated 72%)
+  adding: example_41/317/esses_best.latex (deflated 50%)
+  adding: example_41/317/esses_twin_gen.latex (deflated 40%)
+  adding: example_41/317/best_evidence.posterior.csv (deflated 66%)
+  adding: example_41/317/true_posterior_gen.png (deflated 1%)
+  adding: example_41/317/twin_error_histogram_gen.png (deflated 77%)
+  adding: example_41/317/twin_posterior_gen.png (deflated 1%)
   adding: example_41.R (deflated 60%)
   adding: scripts/ (stored 0%)
-  adding: scripts/rerun.sh (deflated 45%)
-  adding: errors.png (deflated 14%)
+  adding: scripts/rerun.sh (deflated 44%)
+  adding: errors.png (deflated 12%)
 
 
 ###############################################################################
 Peregrine Cluster
-Job 10275045 for user 'p230198'
-Finished at: Sun Mar 22 20:47:58 CET 2020
+Job 10324829 for user 'p230198'
+Finished at: Thu Mar 26 11:24:59 CET 2020
 
 Job details:
 ============
@@ -152,18 +331,18 @@ Partition           : gelifes
 Nodes               : pg-node211
 Cores               : 1
 State               : COMPLETED
-Submit              : 2020-03-22T13:56:03
-Start               : 2020-03-22T13:56:03
-End                 : 2020-03-22T20:47:58
-Reserved walltime   : 10:00:00
-Used walltime       : 06:51:55
-Used CPU time       : 06:28:17 (efficiency: 94.26%)
-% User (Computation): 98.65%
-% System (I/O)      :  1.35%
+Submit              : 2020-03-25T18:38:26
+Start               : 2020-03-25T18:38:26
+End                 : 2020-03-26T11:24:59
+Reserved walltime   : 2-00:00:00
+Used walltime       :   16:46:33
+Used CPU time       :   15:54:04 (efficiency: 94.79%)
+% User (Computation): 99.23%
+% System (I/O)      :  0.78%
 Mem reserved        : 10G/node
 Max Mem used        : 1.08G (pg-node211)
-Max Disk Write      : 0.00  (pg-node211)
-Max Disk Read       : 112.64K (pg-node211)
+Max Disk Write      : 1.25G (pg-node211)
+Max Disk Read       : 27.84G (pg-node211)
 
 
 Acknowledgements:
